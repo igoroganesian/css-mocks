@@ -8,23 +8,33 @@ body {
 .one {
   width: 400px;
   height: 400px;
+  position: relative;
   background-color: red;
 }
 
 .two {
   width: 300px;
   height: 300px;
+  position: relative;
+  left: 100px;
+  top: 100px;
   background-color: yellow;
 }
 
 .three {
   width: 200px;
   height: 200px;
+  position: absolute;
+  left: -100px;
+  top: -100px;
   background-color: green;
 }
 
 .four {
   width: 100px;
   height: 100px;
+  position: relative;
+  left: 100px;
+  top: 100px;
   background-color: blue;
 }
