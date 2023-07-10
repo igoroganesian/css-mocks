@@ -26,5 +26,7 @@ body {
 .four {
   width: 100px;
   height: 100px;
+  position: absolute; /* pops over the rest */;
+  right: 0px;
   background-color: blue;
 }
